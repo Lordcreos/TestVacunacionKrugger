@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "isActive": true,
+      "isAdmin": true,
+      "picture": "https://i.pinimg.com/474x/18/c1/1a/18c11a9d2d85759063118c00012603f8--diane-cat-art.jpg",
+      "ci": "2299857129",
+      "name": "Pepe",
+      "lastname": "Parrales",
+      "email": "perepe@gmail.com",
+      "password": "123456"
+    }
+
+  ],
+  "tasks": [
+    {
+      "id": 3,
+      "userId": 1,
+      "title": "Vacunacion test",
+      "description": "great task",
+      "dosis": 3,
+      "status": "Lista",
+      "createdAt": "2020-05-16T15:04:21.697Z"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "title": "Campaña pfizer",
+      "description": "refuerzo en mente",
+      "dosis": 1,
+      "status": "Lista",
+      "createdAt": "2020-05-16T15:06:06.386Z"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "title": "Test",
+      "description": "none for now",
+      "dosis": 1,
+      "status": "Lista",
+      "createdAt": "2020-05-16T15:09:49.985Z"
+    }
+  ]
+}

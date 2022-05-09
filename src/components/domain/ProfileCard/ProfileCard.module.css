@@ -1,0 +1,20 @@
+.cardInformation {
+    display: flex;
+    justify-content: space-between;
+}
+.cardImage {
+    max-height: 150px;
+    object-fit: cover;
+}
+.active {
+    color: lime;
+    font-weight: 500;
+}
+.disable {
+    color: orangered;
+    font-weight: 500;
+}
+.avatarImage {
+    max-height: 300px;
+    object-fit: cover;
+} 

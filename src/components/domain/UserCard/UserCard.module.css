@@ -1,0 +1,15 @@
+.card {
+    margin-bottom: 1rem;
+}
+.cardImage {
+    max-height: 150px;
+    object-fit: cover;
+}
+.active {
+    color: lime;
+    font-weight: 500;
+}
+.disable {
+    color: orangered;
+    font-weight: 500;
+} 

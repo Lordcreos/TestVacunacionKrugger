@@ -1,0 +1,15 @@
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnDisabled:hover {
+    cursor: not-allowed;
+}
+.buttonsWrapper {
+    display: flex;
+    align-items: center;
+}
+.buttonsWrapper > * {
+    margin-left: 0.5rem;
+} 
